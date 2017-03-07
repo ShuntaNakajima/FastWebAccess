@@ -12,7 +12,34 @@
 		BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FA1E6C3895005E133D /* Main.storyboard */; };
 		BC08C9FE1E6C3895005E133D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FD1E6C3895005E133D /* Assets.xcassets */; };
 		BC08CA011E6C3895005E133D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FF1E6C3895005E133D /* LaunchScreen.storyboard */; };
+		BC32AE9E1E6ECAB20038D627 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */; };
+		BC32AEA11E6ECAB20038D627 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */; };
+		BC32AEA51E6ECAB20038D627 /* FastWebAccessSave.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC32AEA31E6ECAB20038D627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC08C9EB1E6C3895005E133D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC32AE9A1E6ECAB20038D627;
+			remoteInfo = FastWebAccessSave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC32AEA91E6ECAB20038D627 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BC32AEA51E6ECAB20038D627 /* FastWebAccessSave.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC08C9F31E6C3895005E133D /* FastWebAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastWebAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +49,23 @@
 		BC08C9FD1E6C3895005E133D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC08CA001E6C3895005E133D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC08CA021E6C3895005E133D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FastWebAccessSave.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		BC32AEA01E6ECAB20038D627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BC32AEA21E6ECAB20038D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC32AEAA1E6ECF400038D627 /* FastWebAccess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccess.entitlements; sourceTree = "<group>"; };
+		BC32AEAB1E6ECF550038D627 /* FastWebAccessSave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccessSave.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BC08C9F01E6C3895005E133D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32AE981E6ECAB20038D627 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				BC08C9F51E6C3895005E133D /* FastWebAccess */,
+				BC32AE9C1E6ECAB20038D627 /* FastWebAccessSave */,
 				BC08C9F41E6C3895005E133D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				BC08C9F31E6C3895005E133D /* FastWebAccess.app */,
+				BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +96,7 @@
 		BC08C9F51E6C3895005E133D /* FastWebAccess */ = {
 			isa = PBXGroup;
 			children = (
+				BC32AEAA1E6ECF400038D627 /* FastWebAccess.entitlements */,
 				BC08C9F61E6C3895005E133D /* AppDelegate.swift */,
 				BC08C9F81E6C3895005E133D /* ViewController.swift */,
 				BC08C9FA1E6C3895005E133D /* Main.storyboard */,
@@ -62,6 +105,17 @@
 				BC08CA021E6C3895005E133D /* Info.plist */,
 			);
 			path = FastWebAccess;
+			sourceTree = "<group>";
+		};
+		BC32AE9C1E6ECAB20038D627 /* FastWebAccessSave */ = {
+			isa = PBXGroup;
+			children = (
+				BC32AEAB1E6ECF550038D627 /* FastWebAccessSave.entitlements */,
+				BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */,
+				BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */,
+				BC32AEA21E6ECAB20038D627 /* Info.plist */,
+			);
+			path = FastWebAccessSave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +128,34 @@
 				BC08C9EF1E6C3895005E133D /* Sources */,
 				BC08C9F01E6C3895005E133D /* Frameworks */,
 				BC08C9F11E6C3895005E133D /* Resources */,
+				BC32AEA91E6ECAB20038D627 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BC32AEA41E6ECAB20038D627 /* PBXTargetDependency */,
 			);
 			name = FastWebAccess;
 			productName = FastWebAccess;
 			productReference = BC08C9F31E6C3895005E133D /* FastWebAccess.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BC32AE9A1E6ECAB20038D627 /* FastWebAccessSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC32AEA81E6ECAB20038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessSave" */;
+			buildPhases = (
+				BC32AE971E6ECAB20038D627 /* Sources */,
+				BC32AE981E6ECAB20038D627 /* Frameworks */,
+				BC32AE991E6ECAB20038D627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastWebAccessSave;
+			productName = FastWebAccessSave;
+			productReference = BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +171,21 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3XCXCRTJ5X;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BC32AE9A1E6ECAB20038D627 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3XCXCRTJ5X;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,6 +203,7 @@
 			projectRoot = "";
 			targets = (
 				BC08C9F21E6C3895005E133D /* FastWebAccess */,
+				BC32AE9A1E6ECAB20038D627 /* FastWebAccessSave */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +219,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC32AE991E6ECAB20038D627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AEA11E6ECAB20038D627 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,7 +239,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC32AE971E6ECAB20038D627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AE9E1E6ECAB20038D627 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC32AEA41E6ECAB20038D627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC32AE9A1E6ECAB20038D627 /* FastWebAccessSave */;
+			targetProxy = BC32AEA31E6ECAB20038D627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC08C9FA1E6C3895005E133D /* Main.storyboard */ = {
@@ -159,6 +272,14 @@
 				BC08CA001E6C3895005E133D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC32AEA01E6ECAB20038D627 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,7 +379,9 @@
 		BC08CA061E6C3895005E133D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastWebAccess/FastWebAccess.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
 				INFOPLIST_FILE = FastWebAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -271,12 +394,42 @@
 		BC08CA071E6C3895005E133D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastWebAccess/FastWebAccess.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
 				INFOPLIST_FILE = FastWebAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC32AEA61E6ECAB20038D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastWebAccessSave/FastWebAccessSave.entitlements;
+				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
+				INFOPLIST_FILE = FastWebAccessSave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess.FastWebAccessSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC32AEA71E6ECAB20038D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastWebAccessSave/FastWebAccessSave.entitlements;
+				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
+				INFOPLIST_FILE = FastWebAccessSave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess.FastWebAccessSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +453,16 @@
 				BC08CA071E6C3895005E133D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC32AEA81E6ECAB20038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC32AEA61E6ECAB20038D627 /* Debug */,
+				BC32AEA71E6ECAB20038D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
