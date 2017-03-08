@@ -17,7 +17,21 @@ class ShareViewController: UIViewController {
             itemProvider.loadItem(forTypeIdentifier: "public.url", options: nil, completionHandler: {
                 (item, error) in
                 let itemNSURL: NSURL = item as! NSURL
-                print(itemNSURL)
+                print("URL: " + itemNSURL.absoluteString!)
+                let defaults = UserDefaults(suiteName: "group.fastwebapp")
+                 if var objects = defaults!.object(forKey: "URLS") as? [String]{
+                    print(objects)
+                    objects.append(itemNSURL.absoluteString!)
+                    defaults?.set(objects, forKey: "URLS")
+                    defaults?.synchronize()
+                    print("Done!")
+                }else{
+                    var objects = [String]()
+                    objects.append(itemNSURL.absoluteString!)
+                    defaults?.set(objects, forKey: "URLS")
+                    defaults?.synchronize()
+                    print("Done!")
+                }
             })
         }
         self.extensionContext!.completeRequest(returningItems:

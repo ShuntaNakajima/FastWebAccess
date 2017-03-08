@@ -1,0 +1,6 @@
+framework module Pods_FastWebAccess {
+  umbrella header "Pods-FastWebAccess-umbrella.h"
+
+  export *
+  module * { export * }
+}

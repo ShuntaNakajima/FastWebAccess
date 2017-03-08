@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2123EBA30790CE5F525B2390 /* Pods_FastWebAccessSave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */; };
+		447F19A1350B8546F628A82E /* Pods_FastWebAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */; };
 		BC08C9F71E6C3895005E133D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C9F61E6C3895005E133D /* AppDelegate.swift */; };
 		BC08C9F91E6C3895005E133D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C9F81E6C3895005E133D /* ViewController.swift */; };
 		BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FA1E6C3895005E133D /* Main.storyboard */; };
@@ -15,6 +17,11 @@
 		BC32AE9E1E6ECAB20038D627 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */; };
 		BC32AEA11E6ECAB20038D627 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */; };
 		BC32AEA51E6ECAB20038D627 /* FastWebAccessSave.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC32AEAE1E6EDA490038D627 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */; };
+		BC32AEAF1E6EDA490038D627 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */; };
+		BC32AEB31E6EDB8B0038D627 /* Noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEB01E6EDB8B0038D627 /* Noimage.png */; };
+		BC32AEB41E6EDB8B0038D627 /* Noimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */; };
+		BC32AEB51E6EDB8B0038D627 /* Noimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccess.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess.release.xcconfig"; sourceTree = "<group>"; };
+		94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastWebAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessSave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave.debug.xcconfig"; sourceTree = "<group>"; };
 		BC08C9F31E6C3895005E133D /* FastWebAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastWebAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC08C9F61E6C3895005E133D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC08C9F81E6C3895005E133D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +65,14 @@
 		BC32AEA21E6ECAB20038D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC32AEAA1E6ECF400038D627 /* FastWebAccess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccess.entitlements; sourceTree = "<group>"; };
 		BC32AEAB1E6ECF550038D627 /* FastWebAccessSave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccessSave.entitlements; sourceTree = "<group>"; };
+		BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		BC32AEB01E6EDB8B0038D627 /* Noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noimage.png; sourceTree = "<group>"; };
+		BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noimage@2x.png"; sourceTree = "<group>"; };
+		BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noimage@3x.png"; sourceTree = "<group>"; };
+		C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessSave.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave.release.xcconfig"; sourceTree = "<group>"; };
+		C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastWebAccessSave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F301C96282027CDE5A19624F /* Pods-FastWebAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447F19A1350B8546F628A82E /* Pods_FastWebAccess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,18 +88,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2123EBA30790CE5F525B2390 /* Pods_FastWebAccessSave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52BA6C32E0FD8009718B475C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F301C96282027CDE5A19624F /* Pods-FastWebAccess.debug.xcconfig */,
+				27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */,
+				9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */,
+				C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C98C75E826F44BECBE08ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */,
+				C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC08C9EA1E6C3895005E133D = {
 			isa = PBXGroup;
 			children = (
 				BC08C9F51E6C3895005E133D /* FastWebAccess */,
 				BC32AE9C1E6ECAB20038D627 /* FastWebAccessSave */,
 				BC08C9F41E6C3895005E133D /* Products */,
+				52BA6C32E0FD8009718B475C /* Pods */,
+				6C98C75E826F44BECBE08ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,11 @@
 				BC08C9FD1E6C3895005E133D /* Assets.xcassets */,
 				BC08C9FF1E6C3895005E133D /* LaunchScreen.storyboard */,
 				BC08CA021E6C3895005E133D /* Info.plist */,
+				BC32AEB01E6EDB8B0038D627 /* Noimage.png */,
+				BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */,
+				BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */,
+				BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */,
+				BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */,
 			);
 			path = FastWebAccess;
 			sourceTree = "<group>";
@@ -125,10 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC08CA051E6C3895005E133D /* Build configuration list for PBXNativeTarget "FastWebAccess" */;
 			buildPhases = (
+				792E0A542BFAA36CA22B3794 /* [CP] Check Pods Manifest.lock */,
 				BC08C9EF1E6C3895005E133D /* Sources */,
 				BC08C9F01E6C3895005E133D /* Frameworks */,
 				BC08C9F11E6C3895005E133D /* Resources */,
 				BC32AEA91E6ECAB20038D627 /* Embed App Extensions */,
+				90BC27F15565204F8E34516A /* [CP] Embed Pods Frameworks */,
+				698558D1E5348EEDE0135FAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC32AEA81E6ECAB20038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessSave" */;
 			buildPhases = (
+				1ED78DF77D79747E267BFD36 /* [CP] Check Pods Manifest.lock */,
 				BC32AE971E6ECAB20038D627 /* Sources */,
 				BC32AE981E6ECAB20038D627 /* Frameworks */,
 				BC32AE991E6ECAB20038D627 /* Resources */,
+				92EC6CD5D95EDEF5FBCEEFA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC32AEB51E6EDB8B0038D627 /* Noimage@3x.png in Resources */,
+				BC32AEAF1E6EDA490038D627 /* ItemTableViewCell.xib in Resources */,
+				BC32AEB31E6EDB8B0038D627 /* Noimage.png in Resources */,
 				BC08CA011E6C3895005E133D /* LaunchScreen.storyboard in Resources */,
 				BC08C9FE1E6C3895005E133D /* Assets.xcassets in Resources */,
 				BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */,
+				BC32AEB41E6EDB8B0038D627 /* Noimage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,12 +285,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED78DF77D79747E267BFD36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		698558D1E5348EEDE0135FAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792E0A542BFAA36CA22B3794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90BC27F15565204F8E34516A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EC6CD5D95EDEF5FBCEEFA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC08C9EF1E6C3895005E133D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC08C9F91E6C3895005E133D /* ViewController.swift in Sources */,
+				BC32AEAE1E6EDA490038D627 /* ItemTableViewCell.swift in Sources */,
 				BC08C9F71E6C3895005E133D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +513,7 @@
 		};
 		BC08CA061E6C3895005E133D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F301C96282027CDE5A19624F /* Pods-FastWebAccess.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -393,6 +529,7 @@
 		};
 		BC08CA071E6C3895005E133D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -408,6 +545,7 @@
 		};
 		BC32AEA61E6ECAB20038D627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = FastWebAccessSave/FastWebAccessSave.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
@@ -422,6 +560,7 @@
 		};
 		BC32AEA71E6ECAB20038D627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = FastWebAccessSave/FastWebAccessSave.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
