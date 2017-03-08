@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FastWebAccessSave.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FastWebAccessWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>BC08C9F21E6C3895005E133D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC32AE9A1E6ECAB20038D627</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC32AECA1E6FC0D90038D627</key>
 		<dict>
 			<key>primary</key>
 			<true/>

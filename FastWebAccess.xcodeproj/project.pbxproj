@@ -7,14 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2123EBA30790CE5F525B2390 /* Pods_FastWebAccessSave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */; };
+		447F19A1350B8546F628A82E /* Pods_FastWebAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */; };
 		BC08C9F71E6C3895005E133D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C9F61E6C3895005E133D /* AppDelegate.swift */; };
 		BC08C9F91E6C3895005E133D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C9F81E6C3895005E133D /* ViewController.swift */; };
 		BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FA1E6C3895005E133D /* Main.storyboard */; };
 		BC08C9FE1E6C3895005E133D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FD1E6C3895005E133D /* Assets.xcassets */; };
 		BC08CA011E6C3895005E133D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08C9FF1E6C3895005E133D /* LaunchScreen.storyboard */; };
+		BC32AE9E1E6ECAB20038D627 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */; };
+		BC32AEA11E6ECAB20038D627 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */; };
+		BC32AEA51E6ECAB20038D627 /* FastWebAccessSave.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC32AEAE1E6EDA490038D627 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */; };
+		BC32AEAF1E6EDA490038D627 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */; };
+		BC32AEB31E6EDB8B0038D627 /* Noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEB01E6EDB8B0038D627 /* Noimage.png */; };
+		BC32AEB41E6EDB8B0038D627 /* Noimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */; };
+		BC32AEB51E6EDB8B0038D627 /* Noimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */; };
+		BC32AECD1E6FC0D90038D627 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC32AECC1E6FC0D90038D627 /* NotificationCenter.framework */; };
+		BC32AED01E6FC0D90038D627 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AECF1E6FC0D90038D627 /* TodayViewController.swift */; };
+		BC32AED31E6FC0D90038D627 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32AED11E6FC0D90038D627 /* MainInterface.storyboard */; };
+		BC32AED71E6FC0D90038D627 /* FastWebAccessWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC32AECB1E6FC0D90038D627 /* FastWebAccessWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCFFF6D51E703A450048A8EB /* UrlsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */; };
+		BCFFF6D61E703A450048A8EB /* UrlsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BC32AEA31E6ECAB20038D627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC08C9EB1E6C3895005E133D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC32AE9A1E6ECAB20038D627;
+			remoteInfo = FastWebAccessSave;
+		};
+		BC32AED51E6FC0D90038D627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC08C9EB1E6C3895005E133D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC32AECA1E6FC0D90038D627;
+			remoteInfo = FastWebAccessWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC32AEA91E6ECAB20038D627 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BC32AEA51E6ECAB20038D627 /* FastWebAccessSave.appex in Embed App Extensions */,
+				BC32AED71E6FC0D90038D627 /* FastWebAccessWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccess.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess.release.xcconfig"; sourceTree = "<group>"; };
+		94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastWebAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessSave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave.debug.xcconfig"; sourceTree = "<group>"; };
 		BC08C9F31E6C3895005E133D /* FastWebAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastWebAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC08C9F61E6C3895005E133D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC08C9F81E6C3895005E133D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +73,28 @@
 		BC08C9FD1E6C3895005E133D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC08CA001E6C3895005E133D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC08CA021E6C3895005E133D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FastWebAccessSave.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		BC32AEA01E6ECAB20038D627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BC32AEA21E6ECAB20038D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC32AEAA1E6ECF400038D627 /* FastWebAccess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccess.entitlements; sourceTree = "<group>"; };
+		BC32AEAB1E6ECF550038D627 /* FastWebAccessSave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccessSave.entitlements; sourceTree = "<group>"; };
+		BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		BC32AEB01E6EDB8B0038D627 /* Noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noimage.png; sourceTree = "<group>"; };
+		BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noimage@2x.png"; sourceTree = "<group>"; };
+		BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noimage@3x.png"; sourceTree = "<group>"; };
+		BC32AECB1E6FC0D90038D627 /* FastWebAccessWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FastWebAccessWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC32AECC1E6FC0D90038D627 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BC32AECF1E6FC0D90038D627 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BC32AED21E6FC0D90038D627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BC32AED41E6FC0D90038D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlsTableViewCell.swift; sourceTree = "<group>"; };
+		BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrlsTableViewCell.xib; sourceTree = "<group>"; };
+		BCFFF6D71E703BFF0048A8EB /* FastWebAccessWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccessWidget.entitlements; sourceTree = "<group>"; };
+		C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessSave.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave.release.xcconfig"; sourceTree = "<group>"; };
+		C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastWebAccessSave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F301C96282027CDE5A19624F /* Pods-FastWebAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +102,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447F19A1350B8546F628A82E /* Pods_FastWebAccess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32AE981E6ECAB20038D627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2123EBA30790CE5F525B2390 /* Pods_FastWebAccessSave.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32AEC81E6FC0D90038D627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AECD1E6FC0D90038D627 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52BA6C32E0FD8009718B475C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F301C96282027CDE5A19624F /* Pods-FastWebAccess.debug.xcconfig */,
+				27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */,
+				9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */,
+				C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C98C75E826F44BECBE08ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */,
+				C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */,
+				BC32AECC1E6FC0D90038D627 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC08C9EA1E6C3895005E133D = {
 			isa = PBXGroup;
 			children = (
 				BC08C9F51E6C3895005E133D /* FastWebAccess */,
+				BC32AE9C1E6ECAB20038D627 /* FastWebAccessSave */,
+				BC32AECE1E6FC0D90038D627 /* FastWebAccessWidget */,
 				BC08C9F41E6C3895005E133D /* Products */,
+				52BA6C32E0FD8009718B475C /* Pods */,
+				6C98C75E826F44BECBE08ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				BC08C9F31E6C3895005E133D /* FastWebAccess.app */,
+				BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */,
+				BC32AECB1E6FC0D90038D627 /* FastWebAccessWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +171,44 @@
 		BC08C9F51E6C3895005E133D /* FastWebAccess */ = {
 			isa = PBXGroup;
 			children = (
+				BC32AEAA1E6ECF400038D627 /* FastWebAccess.entitlements */,
 				BC08C9F61E6C3895005E133D /* AppDelegate.swift */,
 				BC08C9F81E6C3895005E133D /* ViewController.swift */,
 				BC08C9FA1E6C3895005E133D /* Main.storyboard */,
 				BC08C9FD1E6C3895005E133D /* Assets.xcassets */,
 				BC08C9FF1E6C3895005E133D /* LaunchScreen.storyboard */,
 				BC08CA021E6C3895005E133D /* Info.plist */,
+				BC32AEB01E6EDB8B0038D627 /* Noimage.png */,
+				BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */,
+				BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */,
+				BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */,
+				BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */,
 			);
 			path = FastWebAccess;
+			sourceTree = "<group>";
+		};
+		BC32AE9C1E6ECAB20038D627 /* FastWebAccessSave */ = {
+			isa = PBXGroup;
+			children = (
+				BC32AEAB1E6ECF550038D627 /* FastWebAccessSave.entitlements */,
+				BC32AE9D1E6ECAB20038D627 /* ShareViewController.swift */,
+				BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */,
+				BC32AEA21E6ECAB20038D627 /* Info.plist */,
+			);
+			path = FastWebAccessSave;
+			sourceTree = "<group>";
+		};
+		BC32AECE1E6FC0D90038D627 /* FastWebAccessWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFF6D71E703BFF0048A8EB /* FastWebAccessWidget.entitlements */,
+				BC32AECF1E6FC0D90038D627 /* TodayViewController.swift */,
+				BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */,
+				BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */,
+				BC32AED11E6FC0D90038D627 /* MainInterface.storyboard */,
+				BC32AED41E6FC0D90038D627 /* Info.plist */,
+			);
+			path = FastWebAccessWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +218,60 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC08CA051E6C3895005E133D /* Build configuration list for PBXNativeTarget "FastWebAccess" */;
 			buildPhases = (
+				792E0A542BFAA36CA22B3794 /* [CP] Check Pods Manifest.lock */,
 				BC08C9EF1E6C3895005E133D /* Sources */,
 				BC08C9F01E6C3895005E133D /* Frameworks */,
 				BC08C9F11E6C3895005E133D /* Resources */,
+				BC32AEA91E6ECAB20038D627 /* Embed App Extensions */,
+				90BC27F15565204F8E34516A /* [CP] Embed Pods Frameworks */,
+				698558D1E5348EEDE0135FAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BC32AEA41E6ECAB20038D627 /* PBXTargetDependency */,
+				BC32AED61E6FC0D90038D627 /* PBXTargetDependency */,
 			);
 			name = FastWebAccess;
 			productName = FastWebAccess;
 			productReference = BC08C9F31E6C3895005E133D /* FastWebAccess.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BC32AE9A1E6ECAB20038D627 /* FastWebAccessSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC32AEA81E6ECAB20038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessSave" */;
+			buildPhases = (
+				1ED78DF77D79747E267BFD36 /* [CP] Check Pods Manifest.lock */,
+				BC32AE971E6ECAB20038D627 /* Sources */,
+				BC32AE981E6ECAB20038D627 /* Frameworks */,
+				BC32AE991E6ECAB20038D627 /* Resources */,
+				92EC6CD5D95EDEF5FBCEEFA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastWebAccessSave;
+			productName = FastWebAccessSave;
+			productReference = BC32AE9B1E6ECAB20038D627 /* FastWebAccessSave.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BC32AECA1E6FC0D90038D627 /* FastWebAccessWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC32AEDA1E6FC0D90038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessWidget" */;
+			buildPhases = (
+				BC32AEC71E6FC0D90038D627 /* Sources */,
+				BC32AEC81E6FC0D90038D627 /* Frameworks */,
+				BC32AEC91E6FC0D90038D627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastWebAccessWidget;
+			productName = FastWebAccessWidget;
+			productReference = BC32AECB1E6FC0D90038D627 /* FastWebAccessWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +287,31 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3XCXCRTJ5X;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BC32AE9A1E6ECAB20038D627 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3XCXCRTJ5X;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BC32AECA1E6FC0D90038D627 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3XCXCRTJ5X;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,6 +329,8 @@
 			projectRoot = "";
 			targets = (
 				BC08C9F21E6C3895005E133D /* FastWebAccess */,
+				BC32AE9A1E6ECAB20038D627 /* FastWebAccessSave */,
+				BC32AECA1E6FC0D90038D627 /* FastWebAccessWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -124,13 +340,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC32AEB51E6EDB8B0038D627 /* Noimage@3x.png in Resources */,
+				BC32AEAF1E6EDA490038D627 /* ItemTableViewCell.xib in Resources */,
+				BC32AEB31E6EDB8B0038D627 /* Noimage.png in Resources */,
 				BC08CA011E6C3895005E133D /* LaunchScreen.storyboard in Resources */,
 				BC08C9FE1E6C3895005E133D /* Assets.xcassets in Resources */,
 				BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */,
+				BC32AEB41E6EDB8B0038D627 /* Noimage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32AE991E6ECAB20038D627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AEA11E6ECAB20038D627 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32AEC91E6FC0D90038D627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AED31E6FC0D90038D627 /* MainInterface.storyboard in Resources */,
+				BCFFF6D61E703A450048A8EB /* UrlsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED78DF77D79747E267BFD36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		698558D1E5348EEDE0135FAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792E0A542BFAA36CA22B3794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90BC27F15565204F8E34516A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EC6CD5D95EDEF5FBCEEFA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC08C9EF1E6C3895005E133D /* Sources */ = {
@@ -138,11 +453,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC08C9F91E6C3895005E133D /* ViewController.swift in Sources */,
+				BC32AEAE1E6EDA490038D627 /* ItemTableViewCell.swift in Sources */,
 				BC08C9F71E6C3895005E133D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC32AE971E6ECAB20038D627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AE9E1E6ECAB20038D627 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32AEC71E6FC0D90038D627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC32AED01E6FC0D90038D627 /* TodayViewController.swift in Sources */,
+				BCFFF6D51E703A450048A8EB /* UrlsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC32AEA41E6ECAB20038D627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC32AE9A1E6ECAB20038D627 /* FastWebAccessSave */;
+			targetProxy = BC32AEA31E6ECAB20038D627 /* PBXContainerItemProxy */;
+		};
+		BC32AED61E6FC0D90038D627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC32AECA1E6FC0D90038D627 /* FastWebAccessWidget */;
+			targetProxy = BC32AED51E6FC0D90038D627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC08C9FA1E6C3895005E133D /* Main.storyboard */ = {
@@ -159,6 +505,22 @@
 				BC08CA001E6C3895005E133D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC32AE9F1E6ECAB20038D627 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC32AEA01E6ECAB20038D627 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		BC32AED11E6FC0D90038D627 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC32AED21E6FC0D90038D627 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -257,8 +619,11 @@
 		};
 		BC08CA061E6C3895005E133D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F301C96282027CDE5A19624F /* Pods-FastWebAccess.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastWebAccess/FastWebAccess.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
 				INFOPLIST_FILE = FastWebAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -270,13 +635,74 @@
 		};
 		BC08CA071E6C3895005E133D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastWebAccess/FastWebAccess.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
 				INFOPLIST_FILE = FastWebAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC32AEA61E6ECAB20038D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastWebAccessSave/FastWebAccessSave.entitlements;
+				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
+				INFOPLIST_FILE = FastWebAccessSave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess.FastWebAccessSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC32AEA71E6ECAB20038D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastWebAccessSave/FastWebAccessSave.entitlements;
+				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
+				INFOPLIST_FILE = FastWebAccessSave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess.FastWebAccessSave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC32AED81E6FC0D90038D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastWebAccessWidget/FastWebAccessWidget.entitlements;
+				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
+				INFOPLIST_FILE = FastWebAccessWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess.FastWebAccessWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC32AED91E6FC0D90038D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastWebAccessWidget/FastWebAccessWidget.entitlements;
+				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
+				INFOPLIST_FILE = FastWebAccessWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShuntaNakajima.FastWebAccess.FastWebAccessWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +726,25 @@
 				BC08CA071E6C3895005E133D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC32AEA81E6ECAB20038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC32AEA61E6ECAB20038D627 /* Debug */,
+				BC32AEA71E6ECAB20038D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC32AEDA1E6FC0D90038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC32AED81E6FC0D90038D627 /* Debug */,
+				BC32AED91E6FC0D90038D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
