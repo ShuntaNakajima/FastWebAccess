@@ -8,6 +8,8 @@
 
 import UIKit
 import NotificationCenter
+import Kanna
+import Alamofire
 
 class TodayViewController: UIViewController, NCWidgetProviding,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet var tableview : UITableView!
@@ -62,7 +64,18 @@ class TodayViewController: UIViewController, NCWidgetProviding,UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! UrlsTableViewCell
-        cell.label.text = URLS[indexPath.row]
+        let myURLs = URLS[indexPath.row]
+        Alamofire.request(myURLs).responseString { response in
+            print("\(response.result.isSuccess)")
+            if let html = response.result.value {
+                self.parseHTML(html:html,success: {text in
+                    cell.label.text = text
+                    if cell.label.text == ""{
+                        cell.label.text = URL(string: myURLs)?.host
+                    }
+                })
+            }
+        }
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -77,6 +90,13 @@ class TodayViewController: UIViewController, NCWidgetProviding,UITableViewDelega
         }else{
             extensionContext?.open(URL(string: url)!)
         }
+    }
+    func parseHTML(html:String,success: (String) -> ()) {
+        if html == "Not Found"{
+            success("")
+        }else if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+            success(doc.title!)
+        }else{success("")}
     }
     
 }

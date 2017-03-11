@@ -1,15 +1,23 @@
 PODS:
   - Alamofire (4.4.0)
-  - SwiftyJSON (3.1.4)
+  - DZNEmptyDataSet (1.8.1)
+  - Kanna (2.1.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
-  - SwiftyJSON
+  - DZNEmptyDataSet
+  - Kanna
+  - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: f761aee2249a75c1947a440a4e3ee131da93e3ee
+PODFILE CHECKSUM: 323246aa99b1db3a68bd1bf59a4f7c60e58c6aa9
 
 COCOAPODS: 1.1.1

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Tap to next"; ObjectID = "0Hn-eI-GYt"; */
+"0Hn-eI-GYt.text" = "タップして次へ";
+
+/* Class = "UILabel"; text = "welcome to Url Stocker"; ObjectID = "Jdx-oc-EqT"; */
+"Jdx-oc-EqT.text" = "Url Stockerへようこそ";
+
+/* Class = "UILabel"; text = "You can stock urls"; ObjectID = "LGT-QD-8LN"; */
+"LGT-QD-8LN.text" = "シェア機能を使って";
+
+/* Class = "UILabel"; text = "by useing share"; ObjectID = "LJh-vu-FEY"; */
+"LJh-vu-FEY.text" = "URLを保存できます;
+
+/* Class = "UILabel"; text = "Let's Start!"; ObjectID = "OPc-ze-Qck"; */
+"OPc-ze-Qck.text" = "さあ始めよう";
+
+/* Class = "UILabel"; text = "Tap to start"; ObjectID = "Pcw-RT-X0a"; */
+"Pcw-RT-X0a.text" = "さあ始めよう";
+
+/* Class = "UILabel"; text = "Tap to start"; ObjectID = "ddk-6c-yOd"; */
+"ddk-6c-yOd.text" = "さあ始めよう";

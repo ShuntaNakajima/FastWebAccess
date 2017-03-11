@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2123EBA30790CE5F525B2390 /* Pods_FastWebAccessSave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */; };
+		308BD7C46FD9951823A6DC4B /* Pods_FastWebAccessWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6131AEFC3AC92AF7071537A2 /* Pods_FastWebAccessWidget.framework */; };
 		447F19A1350B8546F628A82E /* Pods_FastWebAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */; };
 		BC08C9F71E6C3895005E133D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C9F61E6C3895005E133D /* AppDelegate.swift */; };
 		BC08C9F91E6C3895005E133D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C9F81E6C3895005E133D /* ViewController.swift */; };
@@ -26,6 +27,36 @@
 		BC32AED01E6FC0D90038D627 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32AECF1E6FC0D90038D627 /* TodayViewController.swift */; };
 		BC32AED31E6FC0D90038D627 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32AED11E6FC0D90038D627 /* MainInterface.storyboard */; };
 		BC32AED71E6FC0D90038D627 /* FastWebAccessWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC32AECB1E6FC0D90038D627 /* FastWebAccessWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC75A6821E73A7DD00A0277D /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6671E73A7DD00A0277D /* Contents.json */; };
+		BC75A6831E73A7DD00A0277D /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6681E73A7DD00A0277D /* Icon-App-20x20@1x.png */; };
+		BC75A6841E73A7DD00A0277D /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6691E73A7DD00A0277D /* Icon-App-20x20@2x.png */; };
+		BC75A6851E73A7DD00A0277D /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A66A1E73A7DD00A0277D /* Icon-App-20x20@3x.png */; };
+		BC75A6861E73A7DD00A0277D /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A66B1E73A7DD00A0277D /* Icon-App-29x29@1x.png */; };
+		BC75A6871E73A7DD00A0277D /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A66C1E73A7DD00A0277D /* Icon-App-29x29@2x.png */; };
+		BC75A6881E73A7DD00A0277D /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A66D1E73A7DD00A0277D /* Icon-App-29x29@3x.png */; };
+		BC75A6891E73A7DD00A0277D /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A66E1E73A7DD00A0277D /* Icon-App-40x40@1x.png */; };
+		BC75A68A1E73A7DD00A0277D /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A66F1E73A7DD00A0277D /* Icon-App-40x40@2x.png */; };
+		BC75A68B1E73A7DD00A0277D /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6701E73A7DD00A0277D /* Icon-App-40x40@3x.png */; };
+		BC75A68C1E73A7DD00A0277D /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6711E73A7DD00A0277D /* Icon-App-57x57@1x.png */; };
+		BC75A68D1E73A7DD00A0277D /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6721E73A7DD00A0277D /* Icon-App-57x57@2x.png */; };
+		BC75A68E1E73A7DD00A0277D /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6731E73A7DD00A0277D /* Icon-App-60x60@1x.png */; };
+		BC75A68F1E73A7DD00A0277D /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6741E73A7DD00A0277D /* Icon-App-60x60@2x.png */; };
+		BC75A6901E73A7DD00A0277D /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6751E73A7DD00A0277D /* Icon-App-60x60@3x.png */; };
+		BC75A6911E73A7DD00A0277D /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6761E73A7DD00A0277D /* Icon-App-72x72@1x.png */; };
+		BC75A6921E73A7DD00A0277D /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6771E73A7DD00A0277D /* Icon-App-72x72@2x.png */; };
+		BC75A6931E73A7DD00A0277D /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6781E73A7DD00A0277D /* Icon-App-76x76@1x.png */; };
+		BC75A6941E73A7DD00A0277D /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6791E73A7DD00A0277D /* Icon-App-76x76@2x.png */; };
+		BC75A6951E73A7DD00A0277D /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67A1E73A7DD00A0277D /* Icon-App-76x76@3x.png */; };
+		BC75A6961E73A7DD00A0277D /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67B1E73A7DD00A0277D /* Icon-App-83.5x83.5@2x.png */; };
+		BC75A6971E73A7DD00A0277D /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67C1E73A7DD00A0277D /* Icon-Small-50x50@1x.png */; };
+		BC75A6981E73A7DD00A0277D /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67D1E73A7DD00A0277D /* Icon-Small-50x50@2x.png */; };
+		BC75A6991E73A7DD00A0277D /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67E1E73A7DD00A0277D /* iTunesArtwork@1x.png */; };
+		BC75A69A1E73A7DD00A0277D /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67F1E73A7DD00A0277D /* iTunesArtwork@2x.png */; };
+		BC75A69B1E73A7DD00A0277D /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6801E73A7DD00A0277D /* iTunesArtwork@3x.png */; };
+		BC75A69C1E73A7DD00A0277D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BC75A6811E73A7DD00A0277D /* README.md */; };
+		BCFF842D1E73C01800A32469 /* アセット 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFF842C1E73C01800A32469 /* アセット 1.png */; };
+		BCFF842F1E73C04900A32469 /* アセット 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFF842E1E73C04900A32469 /* アセット 2.png */; };
+		BCFF84311E73C23B00A32469 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCFF84301E73C23B00A32469 /* FullSizeRender.jpg */; };
 		BCFFF6D51E703A450048A8EB /* UrlsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */; };
 		BCFFF6D61E703A450048A8EB /* UrlsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -63,7 +94,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A0B38F1AC33F1954281C41E /* Pods-FastWebAccessWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessWidget/Pods-FastWebAccessWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		1A59D4BB323149E5C3D076BC /* Pods-FastWebAccessWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessWidget/Pods-FastWebAccessWidget.release.xcconfig"; sourceTree = "<group>"; };
 		27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccess.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccess/Pods-FastWebAccess.release.xcconfig"; sourceTree = "<group>"; };
+		6131AEFC3AC92AF7071537A2 /* Pods_FastWebAccessWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastWebAccessWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastWebAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastWebAccessSave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave.debug.xcconfig"; sourceTree = "<group>"; };
 		BC08C9F31E6C3895005E133D /* FastWebAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastWebAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +123,40 @@
 		BC32AECF1E6FC0D90038D627 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		BC32AED21E6FC0D90038D627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		BC32AED41E6FC0D90038D627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC75A6671E73A7DD00A0277D /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC75A6681E73A7DD00A0277D /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		BC75A6691E73A7DD00A0277D /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		BC75A66A1E73A7DD00A0277D /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		BC75A66B1E73A7DD00A0277D /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		BC75A66C1E73A7DD00A0277D /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		BC75A66D1E73A7DD00A0277D /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		BC75A66E1E73A7DD00A0277D /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		BC75A66F1E73A7DD00A0277D /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		BC75A6701E73A7DD00A0277D /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		BC75A6711E73A7DD00A0277D /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		BC75A6721E73A7DD00A0277D /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		BC75A6731E73A7DD00A0277D /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		BC75A6741E73A7DD00A0277D /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		BC75A6751E73A7DD00A0277D /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		BC75A6761E73A7DD00A0277D /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		BC75A6771E73A7DD00A0277D /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		BC75A6781E73A7DD00A0277D /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		BC75A6791E73A7DD00A0277D /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		BC75A67A1E73A7DD00A0277D /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		BC75A67B1E73A7DD00A0277D /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		BC75A67C1E73A7DD00A0277D /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		BC75A67D1E73A7DD00A0277D /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		BC75A67E1E73A7DD00A0277D /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		BC75A67F1E73A7DD00A0277D /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		BC75A6801E73A7DD00A0277D /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		BC75A6811E73A7DD00A0277D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCFF842C1E73C01800A32469 /* アセット 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 1.png"; sourceTree = "<group>"; };
+		BCFF842E1E73C04900A32469 /* アセット 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 2.png"; sourceTree = "<group>"; };
+		BCFF84301E73C23B00A32469 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
+		BCFF84321E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		BCFF84331E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BCFF84341E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		BCFF84351E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlsTableViewCell.swift; sourceTree = "<group>"; };
 		BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrlsTableViewCell.xib; sourceTree = "<group>"; };
 		BCFFF6D71E703BFF0048A8EB /* FastWebAccessWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccessWidget.entitlements; sourceTree = "<group>"; };
@@ -119,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC32AECD1E6FC0D90038D627 /* NotificationCenter.framework in Frameworks */,
+				308BD7C46FD9951823A6DC4B /* Pods_FastWebAccessWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +201,8 @@
 				27BA2B37F31A7B5FD2DA9FA4 /* Pods-FastWebAccess.release.xcconfig */,
 				9F6AACCB0A58E981A6E86016 /* Pods-FastWebAccessSave.debug.xcconfig */,
 				C403F93C0586FF6337B4839B /* Pods-FastWebAccessSave.release.xcconfig */,
+				1A0B38F1AC33F1954281C41E /* Pods-FastWebAccessWidget.debug.xcconfig */,
+				1A59D4BB323149E5C3D076BC /* Pods-FastWebAccessWidget.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -142,6 +213,7 @@
 				94B755B0C00E1C41401FD2F5 /* Pods_FastWebAccess.framework */,
 				C73CF1E0BA023C4A4E72EE52 /* Pods_FastWebAccessSave.framework */,
 				BC32AECC1E6FC0D90038D627 /* NotificationCenter.framework */,
+				6131AEFC3AC92AF7071537A2 /* Pods_FastWebAccessWidget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,9 +252,13 @@
 				BC08CA021E6C3895005E133D /* Info.plist */,
 				BC32AEB01E6EDB8B0038D627 /* Noimage.png */,
 				BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */,
+				BCFF842C1E73C01800A32469 /* アセット 1.png */,
+				BCFF84301E73C23B00A32469 /* FullSizeRender.jpg */,
+				BCFF842E1E73C04900A32469 /* アセット 2.png */,
 				BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */,
 				BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */,
 				BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */,
+				BC75A6651E73A7DD00A0277D /* ios */,
 			);
 			path = FastWebAccess;
 			sourceTree = "<group>";
@@ -209,6 +285,48 @@
 				BC32AED41E6FC0D90038D627 /* Info.plist */,
 			);
 			path = FastWebAccessWidget;
+			sourceTree = "<group>";
+		};
+		BC75A6651E73A7DD00A0277D /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				BC75A6661E73A7DD00A0277D /* AppIcon.appiconset */,
+				BC75A67E1E73A7DD00A0277D /* iTunesArtwork@1x.png */,
+				BC75A67F1E73A7DD00A0277D /* iTunesArtwork@2x.png */,
+				BC75A6801E73A7DD00A0277D /* iTunesArtwork@3x.png */,
+				BC75A6811E73A7DD00A0277D /* README.md */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		BC75A6661E73A7DD00A0277D /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				BC75A6671E73A7DD00A0277D /* Contents.json */,
+				BC75A6681E73A7DD00A0277D /* Icon-App-20x20@1x.png */,
+				BC75A6691E73A7DD00A0277D /* Icon-App-20x20@2x.png */,
+				BC75A66A1E73A7DD00A0277D /* Icon-App-20x20@3x.png */,
+				BC75A66B1E73A7DD00A0277D /* Icon-App-29x29@1x.png */,
+				BC75A66C1E73A7DD00A0277D /* Icon-App-29x29@2x.png */,
+				BC75A66D1E73A7DD00A0277D /* Icon-App-29x29@3x.png */,
+				BC75A66E1E73A7DD00A0277D /* Icon-App-40x40@1x.png */,
+				BC75A66F1E73A7DD00A0277D /* Icon-App-40x40@2x.png */,
+				BC75A6701E73A7DD00A0277D /* Icon-App-40x40@3x.png */,
+				BC75A6711E73A7DD00A0277D /* Icon-App-57x57@1x.png */,
+				BC75A6721E73A7DD00A0277D /* Icon-App-57x57@2x.png */,
+				BC75A6731E73A7DD00A0277D /* Icon-App-60x60@1x.png */,
+				BC75A6741E73A7DD00A0277D /* Icon-App-60x60@2x.png */,
+				BC75A6751E73A7DD00A0277D /* Icon-App-60x60@3x.png */,
+				BC75A6761E73A7DD00A0277D /* Icon-App-72x72@1x.png */,
+				BC75A6771E73A7DD00A0277D /* Icon-App-72x72@2x.png */,
+				BC75A6781E73A7DD00A0277D /* Icon-App-76x76@1x.png */,
+				BC75A6791E73A7DD00A0277D /* Icon-App-76x76@2x.png */,
+				BC75A67A1E73A7DD00A0277D /* Icon-App-76x76@3x.png */,
+				BC75A67B1E73A7DD00A0277D /* Icon-App-83.5x83.5@2x.png */,
+				BC75A67C1E73A7DD00A0277D /* Icon-Small-50x50@1x.png */,
+				BC75A67D1E73A7DD00A0277D /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC32AEDA1E6FC0D90038D627 /* Build configuration list for PBXNativeTarget "FastWebAccessWidget" */;
 			buildPhases = (
+				AC8FDA83E0C3930C6C8B3F91 /* [CP] Check Pods Manifest.lock */,
 				BC32AEC71E6FC0D90038D627 /* Sources */,
 				BC32AEC81E6FC0D90038D627 /* Frameworks */,
 				BC32AEC91E6FC0D90038D627 /* Resources */,
+				654C409C865BD2E31AD54458 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,13 +460,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC75A6891E73A7DD00A0277D /* Icon-App-40x40@1x.png in Resources */,
+				BC75A6971E73A7DD00A0277D /* Icon-Small-50x50@1x.png in Resources */,
+				BC75A68E1E73A7DD00A0277D /* Icon-App-60x60@1x.png in Resources */,
 				BC32AEB51E6EDB8B0038D627 /* Noimage@3x.png in Resources */,
+				BC75A68F1E73A7DD00A0277D /* Icon-App-60x60@2x.png in Resources */,
 				BC32AEAF1E6EDA490038D627 /* ItemTableViewCell.xib in Resources */,
+				BC75A6991E73A7DD00A0277D /* iTunesArtwork@1x.png in Resources */,
+				BC75A6901E73A7DD00A0277D /* Icon-App-60x60@3x.png in Resources */,
 				BC32AEB31E6EDB8B0038D627 /* Noimage.png in Resources */,
+				BC75A6931E73A7DD00A0277D /* Icon-App-76x76@1x.png in Resources */,
+				BC75A6821E73A7DD00A0277D /* Contents.json in Resources */,
 				BC08CA011E6C3895005E133D /* LaunchScreen.storyboard in Resources */,
+				BC75A68A1E73A7DD00A0277D /* Icon-App-40x40@2x.png in Resources */,
+				BC75A6951E73A7DD00A0277D /* Icon-App-76x76@3x.png in Resources */,
+				BC75A6831E73A7DD00A0277D /* Icon-App-20x20@1x.png in Resources */,
 				BC08C9FE1E6C3895005E133D /* Assets.xcassets in Resources */,
+				BC75A69B1E73A7DD00A0277D /* iTunesArtwork@3x.png in Resources */,
+				BC75A6851E73A7DD00A0277D /* Icon-App-20x20@3x.png in Resources */,
+				BC75A6871E73A7DD00A0277D /* Icon-App-29x29@2x.png in Resources */,
+				BCFF84311E73C23B00A32469 /* FullSizeRender.jpg in Resources */,
+				BC75A68C1E73A7DD00A0277D /* Icon-App-57x57@1x.png in Resources */,
+				BC75A69A1E73A7DD00A0277D /* iTunesArtwork@2x.png in Resources */,
+				BC75A6911E73A7DD00A0277D /* Icon-App-72x72@1x.png in Resources */,
+				BC75A6921E73A7DD00A0277D /* Icon-App-72x72@2x.png in Resources */,
+				BCFF842F1E73C04900A32469 /* アセット 2.png in Resources */,
+				BC75A6881E73A7DD00A0277D /* Icon-App-29x29@3x.png in Resources */,
+				BC75A68D1E73A7DD00A0277D /* Icon-App-57x57@2x.png in Resources */,
 				BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */,
+				BCFF842D1E73C01800A32469 /* アセット 1.png in Resources */,
+				BC75A6961E73A7DD00A0277D /* Icon-App-83.5x83.5@2x.png in Resources */,
+				BC75A68B1E73A7DD00A0277D /* Icon-App-40x40@3x.png in Resources */,
+				BC75A6841E73A7DD00A0277D /* Icon-App-20x20@2x.png in Resources */,
+				BC75A6981E73A7DD00A0277D /* Icon-Small-50x50@2x.png in Resources */,
 				BC32AEB41E6EDB8B0038D627 /* Noimage@2x.png in Resources */,
+				BC75A6941E73A7DD00A0277D /* Icon-App-76x76@2x.png in Resources */,
+				BC75A6861E73A7DD00A0277D /* Icon-App-29x29@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +532,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		654C409C865BD2E31AD54458 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccessWidget/Pods-FastWebAccessWidget-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		698558D1E5348EEDE0135FAF /* [CP] Copy Pods Resources */ = {
@@ -445,6 +609,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastWebAccessSave/Pods-FastWebAccessSave-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AC8FDA83E0C3930C6C8B3F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -454,6 +633,7 @@
 			files = (
 				BC08C9F91E6C3895005E133D /* ViewController.swift in Sources */,
 				BC32AEAE1E6EDA490038D627 /* ItemTableViewCell.swift in Sources */,
+				BC75A69C1E73A7DD00A0277D /* README.md in Sources */,
 				BC08C9F71E6C3895005E133D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +675,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC08C9FB1E6C3895005E133D /* Base */,
+				BCFF84321E73C8D500A32469 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -503,6 +684,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC08CA001E6C3895005E133D /* Base */,
+				BCFF84331E73C8D500A32469 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -511,6 +693,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC32AEA01E6ECAB20038D627 /* Base */,
+				BCFF84341E73C8D500A32469 /* ja */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -519,6 +702,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC32AED21E6FC0D90038D627 /* Base */,
+				BCFF84351E73C8D500A32469 /* ja */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -530,6 +714,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -579,6 +764,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -681,6 +867,7 @@
 		};
 		BC32AED81E6FC0D90038D627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0B38F1AC33F1954281C41E /* Pods-FastWebAccessWidget.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = FastWebAccessWidget/FastWebAccessWidget.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
@@ -695,6 +882,7 @@
 		};
 		BC32AED91E6FC0D90038D627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A59D4BB323149E5C3D076BC /* Pods-FastWebAccessWidget.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = FastWebAccessWidget/FastWebAccessWidget.entitlements;
 				DEVELOPMENT_TEAM = 3XCXCRTJ5X;
