@@ -8,46 +8,61 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
-		<key>FastWebAccessWidget.xcscheme</key>
+		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
+		</dict>
+		<key>Kanna.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-FastWebAccess.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-FastWebAccessSave.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
-		<key>SwiftyJSON.xcscheme</key>
+		<key>Pods-FastWebAccessWidget.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>09543488A412B29CDA90F197153F8FF6</key>
+		<key>2FC0D8130704509FACCCFBE080913A08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>23AC7E5C4FA00F96AF786FBB59A70928</key>
+		<key>4401E950D943BC3EC7939757E79E310A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>47A15A18F9790F6A05C9C52953A87F42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D10E4FF5A483B852B47CCA0B994E340</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50C3D7F4BDB824301C50DEAFCEF06517</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9F2FD4C58E47E423D8606082C129F026</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BC32AEB91E6FC09C0038D627</key>
+		<key>D386C75EFD4F03725E4EFB866B600B9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

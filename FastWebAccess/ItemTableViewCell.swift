@@ -13,7 +13,7 @@ class ItemTableViewCell: UITableViewCell {
     @IBOutlet var ImageView:UIImageView!
     @IBOutlet var UrlLabel:UILabel!
     @IBOutlet var TitleLabel:UILabel!
-    
+    @IBOutlet var ImageLabel:UILabel!
     
     
     override func awakeFromNib() {

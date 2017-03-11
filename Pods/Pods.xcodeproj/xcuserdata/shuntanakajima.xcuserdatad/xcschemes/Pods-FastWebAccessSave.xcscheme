@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23AC7E5C4FA00F96AF786FBB59A70928"
+               BlueprintIdentifier = "2FC0D8130704509FACCCFBE080913A08"
                BuildableName = "Pods_FastWebAccessSave.framework"
                BlueprintName = "Pods-FastWebAccessSave"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23AC7E5C4FA00F96AF786FBB59A70928"
+            BlueprintIdentifier = "2FC0D8130704509FACCCFBE080913A08"
             BuildableName = "Pods_FastWebAccessSave.framework"
             BlueprintName = "Pods-FastWebAccessSave"
             ReferencedContainer = "container:Pods.xcodeproj">
