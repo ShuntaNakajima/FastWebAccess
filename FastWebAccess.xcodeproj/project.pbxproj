@@ -54,6 +54,9 @@
 		BC75A69A1E73A7DD00A0277D /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A67F1E73A7DD00A0277D /* iTunesArtwork@2x.png */; };
 		BC75A69B1E73A7DD00A0277D /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75A6801E73A7DD00A0277D /* iTunesArtwork@3x.png */; };
 		BC75A69C1E73A7DD00A0277D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BC75A6811E73A7DD00A0277D /* README.md */; };
+		BCFF842D1E73C01800A32469 /* アセット 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFF842C1E73C01800A32469 /* アセット 1.png */; };
+		BCFF842F1E73C04900A32469 /* アセット 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFF842E1E73C04900A32469 /* アセット 2.png */; };
+		BCFF84311E73C23B00A32469 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCFF84301E73C23B00A32469 /* FullSizeRender.jpg */; };
 		BCFFF6D51E703A450048A8EB /* UrlsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */; };
 		BCFFF6D61E703A450048A8EB /* UrlsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -147,6 +150,13 @@
 		BC75A67F1E73A7DD00A0277D /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		BC75A6801E73A7DD00A0277D /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		BC75A6811E73A7DD00A0277D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCFF842C1E73C01800A32469 /* アセット 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 1.png"; sourceTree = "<group>"; };
+		BCFF842E1E73C04900A32469 /* アセット 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 2.png"; sourceTree = "<group>"; };
+		BCFF84301E73C23B00A32469 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
+		BCFF84321E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		BCFF84331E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BCFF84341E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		BCFF84351E73C8D500A32469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		BCFFF6D31E703A450048A8EB /* UrlsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlsTableViewCell.swift; sourceTree = "<group>"; };
 		BCFFF6D41E703A450048A8EB /* UrlsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrlsTableViewCell.xib; sourceTree = "<group>"; };
 		BCFFF6D71E703BFF0048A8EB /* FastWebAccessWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastWebAccessWidget.entitlements; sourceTree = "<group>"; };
@@ -242,6 +252,9 @@
 				BC08CA021E6C3895005E133D /* Info.plist */,
 				BC32AEB01E6EDB8B0038D627 /* Noimage.png */,
 				BC32AEB11E6EDB8B0038D627 /* Noimage@2x.png */,
+				BCFF842C1E73C01800A32469 /* アセット 1.png */,
+				BCFF84301E73C23B00A32469 /* FullSizeRender.jpg */,
+				BCFF842E1E73C04900A32469 /* アセット 2.png */,
 				BC32AEB21E6EDB8B0038D627 /* Noimage@3x.png */,
 				BC32AEAC1E6EDA490038D627 /* ItemTableViewCell.swift */,
 				BC32AEAD1E6EDA490038D627 /* ItemTableViewCell.xib */,
@@ -466,13 +479,16 @@
 				BC75A69B1E73A7DD00A0277D /* iTunesArtwork@3x.png in Resources */,
 				BC75A6851E73A7DD00A0277D /* Icon-App-20x20@3x.png in Resources */,
 				BC75A6871E73A7DD00A0277D /* Icon-App-29x29@2x.png in Resources */,
+				BCFF84311E73C23B00A32469 /* FullSizeRender.jpg in Resources */,
 				BC75A68C1E73A7DD00A0277D /* Icon-App-57x57@1x.png in Resources */,
 				BC75A69A1E73A7DD00A0277D /* iTunesArtwork@2x.png in Resources */,
 				BC75A6911E73A7DD00A0277D /* Icon-App-72x72@1x.png in Resources */,
 				BC75A6921E73A7DD00A0277D /* Icon-App-72x72@2x.png in Resources */,
+				BCFF842F1E73C04900A32469 /* アセット 2.png in Resources */,
 				BC75A6881E73A7DD00A0277D /* Icon-App-29x29@3x.png in Resources */,
 				BC75A68D1E73A7DD00A0277D /* Icon-App-57x57@2x.png in Resources */,
 				BC08C9FC1E6C3895005E133D /* Main.storyboard in Resources */,
+				BCFF842D1E73C01800A32469 /* アセット 1.png in Resources */,
 				BC75A6961E73A7DD00A0277D /* Icon-App-83.5x83.5@2x.png in Resources */,
 				BC75A68B1E73A7DD00A0277D /* Icon-App-40x40@3x.png in Resources */,
 				BC75A6841E73A7DD00A0277D /* Icon-App-20x20@2x.png in Resources */,
@@ -659,6 +675,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC08C9FB1E6C3895005E133D /* Base */,
+				BCFF84321E73C8D500A32469 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -667,6 +684,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC08CA001E6C3895005E133D /* Base */,
+				BCFF84331E73C8D500A32469 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -675,6 +693,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC32AEA01E6ECAB20038D627 /* Base */,
+				BCFF84341E73C8D500A32469 /* ja */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -683,6 +702,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC32AED21E6FC0D90038D627 /* Base */,
+				BCFF84351E73C8D500A32469 /* ja */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -694,6 +714,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -743,6 +764,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

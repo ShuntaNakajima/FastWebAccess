@@ -19,6 +19,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     var URLS = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(
             self,
@@ -33,6 +34,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.tableview.dataSource = self
         self.tableview.emptyDataSetDelegate = self
         self.tableview.emptyDataSetSource = self
+        let defaults = UserDefaults.standard
+        if defaults.bool(forKey: "firstLaunch") {
+            defaults.set(false, forKey: "firstLaunch")
+            let targetViewController = self.storyboard!.instantiateViewController( withIdentifier: "Start" )
+            self.present( targetViewController, animated: true, completion: nil)
+        }
         loaddata()
         
     }
@@ -46,9 +53,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             print(objects!)
             self.URLS = objects!.reversed()
             if URLS == [] {
-               // self.tableview.isHidden = true
+                self.tableview.separatorStyle = UITableViewCellSeparatorStyle.none
             }else{
-                self.tableview.isHidden = false
+                 self.tableview.separatorStyle = UITableViewCellSeparatorStyle.singleLine
             }
             self.tableview.reloadData()
         }
@@ -115,9 +122,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){
         if editingStyle == UITableViewCellEditingStyle.delete {
             URLS.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.automatic)
             defaults?.set(URLS.reversed() as [String], forKey: "URLS")
             defaults?.synchronize()
+            loaddata()
         }
     }
     func parseHTML(html:String,success: (String) -> ()) {
@@ -129,16 +136,20 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
         let text = "No urls"
-        let font = UIFont.systemFont(ofSize: 20)
-        return NSAttributedString(string: text, attributes: [NSFontAttributeName: font])
+        let font = UIFont.systemFont(ofSize: 50)
+        return NSAttributedString(string: text, attributes: [NSFontAttributeName: font,NSForegroundColorAttributeName : UIColor(red: 225 / 255.0, green: 225 / 255.0, blue: 225 / 255.0, alpha: 1.0)])
     }
     func buttonTitle(forEmptyDataSet scrollView: UIScrollView!, for state: UIControlState) -> NSAttributedString!{
         let text = "See tutorial"
-        let font = UIFont.systemFont(ofSize: 15)
-        return NSAttributedString(string: text, attributes: [NSFontAttributeName: font])
+        let font = UIFont.systemFont(ofSize: 25)
+        return NSAttributedString(string: text, attributes: [NSFontAttributeName: font,NSForegroundColorAttributeName : UIColor(red: 225 / 255.0, green: 225 / 255.0, blue: 225 / 255.0, alpha: 1.0)])
     }
     func emptyDataSetDidTapButton(_ scrollView: UIScrollView!) {
-        print("test")
+        let targetViewController = self.storyboard!.instantiateViewController( withIdentifier: "Start" )
+        self.present( targetViewController, animated: true, completion: nil)
+    }
+    func verticalOffset(forEmptyDataSet scrollView: UIScrollView!) -> CGFloat {
+       return -100
     }
 }
 
